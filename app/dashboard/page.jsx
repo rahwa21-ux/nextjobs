@@ -1,5 +1,3 @@
-import JobCard from "./components/JobCard";
-
 import {
   Search,
   TrendingUp,
@@ -204,12 +202,12 @@ export default function Home() {
               >
                 Get Started Free
               </Link>
-              <Link
+              {/*<Link
                 href="/jobs"
                 className="border-2 border-white text-white hover:bg-white hover:text-primary-600 px-8 py-3 rounded-lg font-semibold text-lg transition-colors"
               >
                 Browse Jobs
-              </Link>
+              </Link>*/}
             </div>
           </div>
         </div>
