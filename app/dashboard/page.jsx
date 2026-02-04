@@ -1,5 +1,5 @@
 import JobCard from "./components/JobCard";
-import { mockJobs } from "./data/mockData";
+
 import {
   Search,
   TrendingUp,
