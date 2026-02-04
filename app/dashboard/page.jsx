@@ -1,4 +1,4 @@
-import {
+/*import {
   Search,
   TrendingUp,
   Users,
@@ -19,12 +19,12 @@ export default function Home() {
     "Marketing",
     "Sales",
     "DevOps",
-  ];
+  ];*/
 
-  return (
+/*return (
     <>
-      {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-primary-600 to-primary-800 text-white">
+      /* Hero Section */
+/*<section className="relative bg-gradient-to-r from-primary-600 to-primary-800 text-white">
         <div className="container mx-auto px-4 py-20">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -78,8 +78,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-12 bg-gray-50">
+      {/* Stats Section */
+/*<section className="py-12 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             <div className="text-center">
@@ -110,8 +110,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Featured Jobs */}
-      <section className="py-16">
+      {/* Featured Jobs */
+/*<section className="py-16">
         <div className="container mx-auto px-4">
           <div className="flex justify-between items-center mb-8">
             <div>
@@ -137,8 +137,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Features */}
-      <section className="py-16 bg-gray-50">
+      {/* Features */
+/*<section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">
             Why Choose NextJobs?
@@ -184,8 +184,8 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16">
+      {/* CTA */
+/*<section className="py-16">
         <div className="container mx-auto px-4">
           <div className="bg-gradient-to-r from-primary-600 to-primary-800 rounded-2xl p-12 text-center text-white">
             <h2 className="text-3xl font-bold mb-4">
@@ -207,11 +207,11 @@ export default function Home() {
                 className="border-2 border-white text-white hover:bg-white hover:text-primary-600 px-8 py-3 rounded-lg font-semibold text-lg transition-colors"
               >
                 Browse Jobs
-              </Link>*/}
-            </div>
+              </Link>*/
+/*</div>
           </div>
         </div>
       </section>
     </>
   );
-}
+}*/
