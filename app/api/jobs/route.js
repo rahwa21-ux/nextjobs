@@ -1,4 +1,4 @@
-import { NextResponse } from "next/server";
+/*import { NextResponse } from "next/server";
 import { mockJobs } from "@/data/mockData";
 
 export async function GET(request) {
@@ -44,4 +44,4 @@ export async function GET(request) {
     totalPages: Math.ceil(filteredJobs.length / limit),
     hasMore: endIndex < filteredJobs.length,
   });
-}
+}*/
