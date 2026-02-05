@@ -101,25 +101,22 @@ export default function LandingPage() {
 
   const slideVariants = {
     enter: (direction) => ({
-      x: direction > 0 ? 1000 : -1000,
+      x: direction > 0 ? 80 : -80,
       opacity: 0,
-      scale: 1.1,
+      scale: 1.05,
+      filter: "blur(4px)",
     }),
     center: {
       x: 0,
       opacity: 1,
       scale: 1,
-      transition: {
-        x: { type: "spring", stiffness: 300, damping: 30 },
-        opacity: { duration: 0.5 },
-        scale: { duration: 0.5 },
-      },
+      filter: "blur(0px)",
     },
     exit: (direction) => ({
-      x: direction < 0 ? 1000 : -1000,
-      opacity: 0,
-      scale: 0.95,
-      transition: { duration: 0.3 },
+      x: direction > 0 ? -80 : 80,
+      opacity: 0.2,
+      scale: 1.03,
+      filter: "blur(3px)",
     }),
   };
 
@@ -134,13 +131,13 @@ export default function LandingPage() {
   };
 
   const navLinks = [
-    { name: "Home", href: "#home", icon: "🏠" },
-    { name: "Features", href: "#features", icon: "⚡" },
+    { name: "Home", href: "#home" },
+    { name: "Features", href: "#features" },
 
-    { name: "Why Us", href: "#whychoose", icon: "⭐" },
-    { name: "Testimonials", href: "#testimonials", icon: "💬" },
-    { name: "Pricing", href: "#pricing", icon: "💰" },
-    { name: "Contact", href: "#contact", icon: "📞" },
+    { name: "Why Us", href: "#whychoose" },
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "Pricing", href: "#pricing" },
+    { name: "Contact", href: "#contact" },
   ];
 
   const features = [
@@ -287,7 +284,12 @@ export default function LandingPage() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <Image src="/logo1.jpg" alt="logo" width={50} height={40} />
+            <Image
+              src="/nextjobs-logo2.svg"
+              alt="logo"
+              width={70}
+              height={60}
+            />
 
             <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
               NextJobs
@@ -387,13 +389,13 @@ export default function LandingPage() {
       {/* Enhanced Hero Section */}
       <section
         id="home"
-        className="min-h-screen relative overflow-hidden"
+        className="min-h-screen relative overflow-hidden bg-blue-900"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
         {/* Background Images */}
         <div className="absolute inset-0">
-          <AnimatePresence mode="wait" initial={false} custom={direction}>
+          <AnimatePresence mode="sync" initial={false} custom={direction}>
             <motion.div
               key={currentImage}
               custom={direction}
@@ -401,6 +403,10 @@ export default function LandingPage() {
               initial="enter"
               animate="center"
               exit="exit"
+              transition={{
+                duration: 2,
+                ease: [0.4, 0, 0.2, 1],
+              }}
               className="absolute inset-0"
             >
               <Image
@@ -1210,9 +1216,13 @@ export default function LandingPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
             <div className="lg:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-blue-700 rounded-xl flex items-center justify-center">
-                  <Briefcase className="h-6 w-6 text-white" />
-                </div>
+                <Image
+                  src="/nextjobs-logo2.svg"
+                  alt="logo"
+                  width={70}
+                  height={60}
+                />
+
                 <span className="text-2xl font-bold">NextJobs</span>
               </div>
               <p className="text-white/70 mb-8 max-w-md">

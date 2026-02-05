@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000">
+  <!-- Generator: Adobe Illustrator 29.5.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 137)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient);
+      }
+
+      .st0, .st1, .st2 {
+        opacity: .88;
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .st1 {
+        fill: url(#Orange_Yellow);
+      }
+
+      .st2 {
+        fill: #e82600;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="282.38" y1="349.25" x2="902.13" y2="349.25" gradientTransform="translate(122.62 184.79) rotate(-.13) scale(.75) skewX(-.26)" gradientUnits="userSpaceOnUse">
+      <stop offset=".24" stop-color="#ed683c"/>
+      <stop offset=".46" stop-color="#f3903f"/>
+      <stop offset=".93" stop-color="#fdc70c"/>
+      <stop offset="1" stop-color="#f6b13b"/>
+    </linearGradient>
+    <linearGradient id="Orange_Yellow" data-name="Orange, Yellow" x1="435" y1="447.08" x2="901.76" y2="447.08" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff33b"/>
+      <stop offset=".04" stop-color="#fee62d"/>
+      <stop offset=".12" stop-color="#fdd51b"/>
+      <stop offset=".2" stop-color="#fdca0f"/>
+      <stop offset=".28" stop-color="#fdc70c"/>
+      <stop offset=".67" stop-color="#f3903f"/>
+      <stop offset=".89" stop-color="#ed683c"/>
+      <stop offset="1" stop-color="#e93e3a"/>
+    </linearGradient>
+  </defs>
+  <text/>
+  <g>
+    <polygon class="st2" points="225.45 649.06 238.76 245.11 692.2 468.13 225.45 649.06"/>
+    <polygon class="st0" points="334.03 649.06 347.35 245.11 800.79 468.13 334.03 649.06"/>
+    <polygon class="st1" points="435 649.06 448.31 245.11 901.76 468.13 435 649.06"/>
+  </g>
+</svg>
